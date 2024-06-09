@@ -20,7 +20,9 @@ Here is how to run it - it is assumed that ROS2 Humble is installed in the defau
 2. Run colcon build, run . install/setup.bash in the workspace with every terminal 
 3. it needs 3 terminal windows.
    a. open the first window and type "ros2 launch lbot_control two_launchy.py" - this starts tb3 in gazebo, navigatio2 package and rtap slam
+   
    b. open the second window and type "ros2 launch lbot_control lbot_control_launch.py" - this starts detector module
+   
    c. open the third window and type "ros2 run lbot_misc_node name_of_object - this will make the tb3 navigate to the object if it was detected before
 
    
