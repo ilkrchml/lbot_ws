@@ -1,6 +1,6 @@
 # lbot_ws
 
-lbot for llm vlm navigation
+lbot for llm vlm navigation(Language-Based Open-Vocabulary Robot Navigation System)
 
 The initial implementation uses YOLO based detection module(trained on COCO data set) in lieu of VLM to detection and segmentation.
 
