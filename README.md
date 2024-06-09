@@ -14,7 +14,8 @@ Here is brief explanation of whta it does
 6. Once it finds the object, it gets its coordinates and send it to \goal_pose topic
 7. tb3 navigates to the goal pose
 
-Here is how to run it
+Here is how to run it - it is assumed that ROS2 Humble is installed in the default directory. NAV2 pacakge and RTAP SLAM was installed in the default directory.
+
 1. Download the code
 2. Run colcon build, run . install/setup.bash in the workspace with every terminal 
 3. it needs 3 terminal windows.
