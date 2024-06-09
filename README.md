@@ -1,6 +1,6 @@
 # lbot_ws
 lbot for llm vlm navigation
-The initial implementation uses yOLO based detection module in lieu of VLM to detection and segmentation.
+The initial implementation uses YOLO based detection module(trained on COCO data set) in lieu of VLM to detection and segmentation.
 This is WIP and functionalty is not complete - i.e. there are erros in mapping pose in the camera frame into world map frame, etc.
 Segmentation is not marked in th occupancy map  in real time - it just keeps dictionary of name and the coordinats of teh objects detected.
 
