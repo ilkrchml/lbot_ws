@@ -1,7 +1,11 @@
 # lbot_ws
+
 lbot for llm vlm navigation
+
 The initial implementation uses YOLO based detection module(trained on COCO data set) in lieu of VLM to detection and segmentation.
+
 This is WIP and functionalty is not complete - i.e. there are erros in mapping pose in the camera frame into world map frame, etc.
+
 Segmentation is not marked in th occupancy map  in real time - it just keeps dictionary of name and the coordinats of teh objects detected.
 
 
@@ -19,6 +23,7 @@ Here is how to run it - it is assumed that ROS2 Humble is installed in the defau
 1. Download the code
 2. Run colcon build, run . install/setup.bash in the workspace with every terminal 
 3. it needs 3 terminal windows.
+   
    a. open the first window and type "ros2 launch lbot_control two_launchy.py" - this starts tb3 in gazebo, navigatio2 package and rtap slam
    
    b. open the second window and type "ros2 launch lbot_control lbot_control_launch.py" - this starts detector module
