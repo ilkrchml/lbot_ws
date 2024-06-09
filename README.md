@@ -6,7 +6,7 @@ The initial implementation uses YOLO based detection module(trained on COCO data
 
 This is WIP and functionalty is not complete - i.e. there are erros in mapping pose in the camera frame into world map frame, etc.
 
-Segmentation is not marked in th occupancy map  in real time - it just keeps dictionary of name and the coordinats of teh objects detected.
+Segmentation is not marked on the occupancy map  in real time - it just keeps dictionary of name and the coordinats of the objects detected.
 
 
 Here is brief explanation of whta it does
