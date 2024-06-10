@@ -12,10 +12,10 @@ Segmentation is not marked on the occupancy map  in real time - it just keeps di
 Here is brief explanation of whta it does
 1. The simulation starts in a house environment in a gazebo simulation
 2. tb3 needs to explore the entire house manually using nav2goal gui on rviz
-3. Once tb3 finish exploring, detecteed objects are add to dictionay with there coordinates and saved into my_file.npy
-4. User can give the name of the object to which tb3 needs to navigate to.
-5. lbot_misc_node loads my_file.npy and query dictionary if the object exist in it.
-6. Once it finds the object, it gets its coordinates and send it to \goal_pose topic
+3. Once tb3 finish exploring, detected objects are added to dictionay with their coordinates and saved into my_file.npy
+4. In another terminal, user can give the name of the object to which tb3 needs to navigate to.
+5. lbot_misc_node loads my_file.npy and query dictionary if the object exists in it.
+6. Once it finds the object, it gets its coordinates and sends it to \goal_pose topic
 7. tb3 navigates to the goal pose
 
 Here is how to run it - it is assumed that ROS2 Humble is installed in the default directory. NAV2 pacakge and RTAP SLAM was installed in the default directory.
